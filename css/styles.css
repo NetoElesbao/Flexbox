@@ -1,0 +1,66 @@
+body {
+  padding-bottom: 500px;
+}
+
+/* Flex */
+.flex {
+  display: flex;
+  background-color: rgb(190, 180, 166);
+  margin-bottom: 20px;
+}
+
+/* Flex column */
+.flex-colunm {
+  display: flex;
+  flex-direction: column;
+  background-color: #ccc;
+  margin-bottom: 20px;
+}
+
+/* Wrap */
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.box {
+  height: 40px;
+  width: 33%;
+  border: 1px solid red;
+}
+
+/* Justify Content */
+.center,
+.space-around,
+.space-between,
+.end {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.center .box,
+.space-around .box,
+.space-between .box,
+.end .box {
+  width: 50px;
+}
+
+.center {
+  justify-content: center;
+}
+
+.space-around {
+  justify-content: space-around;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.end {
+  justify-content: end;
+}
+
+/* Align items */
+
