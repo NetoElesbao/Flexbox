@@ -2,6 +2,12 @@ body {
   padding-bottom: 500px;
 }
 
+hr {
+  height: 2px;
+  background-color: black;
+  margin: 20px 0;
+}
+
 /* Flex */
 .flex {
   display: flex;
@@ -92,6 +98,47 @@ body {
 .stretch {
   align-items: stretch;
 }
-.stretch .box{
+.stretch .box {
   height: auto;
+}
+
+/* Gap */
+.gap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: 1px solid green;
+  gap: 10px;
+}
+
+.gap .box {
+  width: 32%;
+}
+
+/* Order */
+.order {
+  display: flex;
+}
+
+#one {
+  order: 1;
+}
+#two {
+  order: 2;
+}
+#three {
+  order: 3;
+}
+
+/* Grow */
+.grow {
+  display: flex;
+}
+
+.grow .box {
+  flex: 1;
+}
+
+.grow .big {
+  flex: 2;
 }
