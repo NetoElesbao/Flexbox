@@ -185,3 +185,15 @@ hr {
 .shorthand .different {
   flex: 3 1 400px;
 }
+
+/* Auto Alinhamento */
+.auto-aligment {
+  height: 300px;
+  display: flex;
+  align-items: flex-end;
+  border:  1px solid purple;
+}
+
+.auto-aligment .different {
+  align-self: center;
+}
